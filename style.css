@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#top {
+    text-align: right;
+    font-size: 13px;
+    padding: 15px;
+}
+
+a {
+    padding-right: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(83, 82, 82);
+    text-decoration: underline;
+}
+
+#middle {
+    display: grid;
+    place-items: center;
+    padding: 7%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+input[type="text"] {
+    width: 470px;
+    margin: 25px;
+    padding: 13px 50px 13px 50px;
+    border: 1px #dddddd;
+    border-radius: 50px;
+    border-style: solid;
+    font-size: 16px;
+    background-image: url(loupe.png);
+    background-size: 14px;
+    background-position: 20px center;
+    background-repeat: no-repeat;
+    outline: none;
+}
+
+input[type="text"]:hover {
+    box-shadow: 0 0 7px #dddddd;
+}
+
+@media (max-width: 700px) {
+    img {
+        width: 50%;
+        height: auto;
+    }
+    input[type="text"] {
+        width: auto;
+    }
+}
+
+#buttons {
+    margin-top: 10px;
+    text-align: center;
+}
+
+input[type="submit"] {
+    font-size: 14px;
+    color: rgb(68, 68, 68);
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px 15px 10px 15px;
+    background-color: #F8F9FA;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    outline: none;
+}
+
+input[type="submit"]:hover {
+    border: 1px solid #cccccc;
+}
