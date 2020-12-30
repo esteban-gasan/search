@@ -26,6 +26,7 @@ a:hover {
 }
 
 img {
+    width: 272px;
     max-width: 100%;
     height: auto;
 }
@@ -64,7 +65,7 @@ input[type="text"]:hover {
     text-align: center;
 }
 
-input[type="submit"] {
+button {
     font-size: 14px;
     color: rgb(68, 68, 68);
     margin-left: 5px;
@@ -76,6 +77,6 @@ input[type="submit"] {
     outline: none;
 }
 
-input[type="submit"]:hover {
+button:hover {
     border: 1px solid #cccccc;
 }
