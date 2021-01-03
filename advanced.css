@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#top {
+    text-align: right;
+    padding: 15px;
+}
+
+.link {
+    font-size: 13px;
+    padding-right: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: rgb(83, 82, 82);
+    text-decoration: underline;
+}
+
+img {
+    float: left;
+    height: 30px;
+    width: auto;
+}
+
+#header {
+    display: block;
+    color: #d93025;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 20px;
+    padding-top: 25px;
+}
+
+#container {
+    margin: 20px;
+}
+
+form {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 15px;
+}
+
+.field {
+    display: table-row;
+}
+
+label {
+    display: table-cell;
+    width: 175px;
+    font-size: 13px;
+}
+
+.input-cell {
+    display: table-cell;
+    width: 560px;
+    padding-right: 15px;
+}
+
+input {
+    font-size: 13px;
+    width: 100%;
+    margin-right: 15px;
+    padding: 5px;
+    padding-left: 8px;
+    border: 1px solid #C0C0C0;
+    outline: none;
+}
+
+input:focus {
+    /*TODO box-shadow: 0 0 7px #dddddd; */
+    border: 1px solid #4D90FE;
+}
+
+#hint {
+    color: #777777;
+    font-size: 13px;
+    font-weight: bold;
+
+}
+.tip {
+    display: table-cell;
+    color: #555555;
+    font-size: 11px;
+}
+
+.example {
+    color: #666666;
+    font-family: monospace;
+    font-size: 11px;
+}
+
+@media (max-width: 1100px) {
+    #hint, .tip {
+        display: none;
+    }
+}
+
+button {
+    float: right;
+    font-size: 11px;
+    font-weight: bold;
+    color: white;
+    background-color: #4D90FE;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    padding: 10px 15px 10px 15px;
+    outline: none;
+}
+
+button:hover {
+    border: 1px solid #2F5BB7;
+}
