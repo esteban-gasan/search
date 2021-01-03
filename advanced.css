@@ -72,7 +72,7 @@ input {
 }
 
 input:focus {
-    /*TODO box-shadow: 0 0 7px #dddddd; */
+    box-shadow: inset 0px 2px 3px 1px #dddddd;
     border: 1px solid #4D90FE;
 }
 
