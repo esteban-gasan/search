@@ -52,9 +52,10 @@ img {
 
 @media (max-width: 700px) {
     img {
-        width: 50%;
+        width: 40%;
         height: auto;
     }
+    
     #bar {
         width: auto;
     }
